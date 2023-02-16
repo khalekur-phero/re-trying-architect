@@ -189,17 +189,7 @@ main .middile-one .middile-one-image img {
     border-radius: 8px;
 }
 
-#sticky-box {
-    position: absolute;
-    width: 342px;
-    left: 980px;
-    top: 3162px;
-    background: #FF900E;
-    border-radius: 8px;
-    padding: 43px;
-    text-align: center;
 
-}
 
 #sticky-box h1 {
     color: #FFFFFF;
@@ -327,4 +317,96 @@ footer {
     border-radius: 8px;
     padding: 38px 380px;
     margin: 130px 240px 216px 240px;
+}
+
+@media only screen and (max-width:688px) {
+    body {
+        width: 100%;
+    }
+
+    .top-part,
+    .heading img {
+        width: 100%;
+    }
+
+    .middle-one {
+        flex-direction: column-reverse;
+        margin-top: 172px;
+    }
+
+    .middile-one-image {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+
+    .middle-two-up {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .middle-two-image img {
+        width: 100%;
+    }
+
+    #sticky-box {
+        width: 100%;
+        background: #FF900E;
+        border-radius: 8px;
+        text-align: center;
+        margin-top: 1350px;
+
+    }
+
+    .middle-three {
+        margin-top: 140px;
+        margin-left: 0;
+    }
+
+    .boxs {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .box {
+        width: 80%;
+    }
+
+    .sponsors-images {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+
+    footer {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .banner,
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+@media only screen and (min-width:689px) {
+    #sticky-box {
+        position: absolute;
+        width: 342px;
+        left: 980px;
+        top: 3162px;
+        background: #FF900E;
+        border-radius: 8px;
+        padding: 43px;
+        text-align: center;
+
+    }
+
 }
