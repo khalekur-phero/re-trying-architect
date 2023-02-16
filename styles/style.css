@@ -242,9 +242,12 @@ main .middile-one .middile-one-image img {
 .boxs {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 257px;
+
 }
 
 .box {
+    color: #424242;
     display: flex;
     flex-direction: column;
     width: 241.83px;
@@ -253,6 +256,13 @@ main .middile-one .middile-one-image img {
     border-radius: 8px;
     align-items: center;
     justify-content: center;
+    transition: all 0.2s ease-out;
+}
+
+.box:hover,
+.box:focus {
+    border: 10px solid #FF900E;
+    border-radius: 8px;
 }
 
 .box .box-text {
@@ -263,7 +273,6 @@ main .middile-one .middile-one-image img {
 }
 
 .box p {
-    color: #727272;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
@@ -271,7 +280,6 @@ main .middile-one .middile-one-image img {
 }
 
 .box h2 {
-    color: #424242;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
@@ -282,9 +290,7 @@ main .middile-one .middile-one-image img {
     padding: 46px 36px;
 }
 
-.sponsors {
-    margin-top: 257px;
-}
+.sponsors {}
 
 .sponsors h2 {
     font-family: 'Work Sans';
