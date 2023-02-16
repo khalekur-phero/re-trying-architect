@@ -137,7 +137,7 @@ main .middile-one .middile-one-image img {
     color: #FF900E;
 }
 
-.middle-two {
+.middle-two-up {
     display: flex;
     align-items: center;
     width: 1440px;
@@ -187,6 +187,34 @@ main .middile-one .middile-one-image img {
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
+}
+
+#sticky-box {
+    position: absolute;
+    width: 342px;
+    left: 980px;
+    top: 3162px;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 43px;
+    text-align: center;
+
+}
+
+#sticky-box h1 {
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+#sticky-box h5 {
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
 }
 
 .middle-three {
